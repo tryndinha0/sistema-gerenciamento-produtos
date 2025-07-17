@@ -48,7 +48,7 @@ export class ProductFormComponent implements OnInit {
       name: [this.data ? this.data.name : '', Validators.required],
       price: [this.data ? this.data.price : null, [Validators.required, Validators.min(0.01)]],
       description: [this.data ? this.data.description : ''],
-      quantity: [this.data ? this.data.quantity : null, [Validators.required, Validators.min(0)]]
+      quantity: [this.data ? this.data.quantity : null, [Validators.required, Validators.min(1)]]
     });
   }
 
