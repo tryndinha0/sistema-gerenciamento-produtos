@@ -1,0 +1,22 @@
+.container {
+  padding: 20px;
+}
+
+.spacer {
+  flex: 1 1 auto; /* Empurra o botão "Adicionar Produto" para a direita */
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.mat-column-actions {
+  width: 120px; /* Largura fixa para a coluna de ações */
+  text-align: center;
+}
+
+.search-field {
+  width: 300px; /* Largura para o campo de busca */
+  margin-top: 20px;
+}
