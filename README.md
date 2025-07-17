@@ -1,5 +1,5 @@
 Para ligar o front: 
-abrir o terminal basta dar cd dentro da pasta front end e utilizar o comando ng serve --open
+abrir o terminal basta dar cd dentro da pasta front-end, npm install e ng serve --open
 
 Para iniciar o back: product-managemente-backend>src>main>java>ProductManagementBackendApplication e dar run
 
